@@ -7,9 +7,13 @@
  - Run `yarn start:macos` to open in hot reloading enabled mode. (Opens web app on chrome automatically)
  - And you are done!
 ---
+
  - Run `yarn run-automate:macos` to open without hot reloadinng enabled. (Opens web app on chrome automatically)
+ 
 ---
+
  - Server will run on port 3000. You can access same by visiting `http://localhost:3000` in browser.
+ 
 ---
 
 ## Running instructions on local (For Linux)
@@ -20,7 +24,11 @@
  - Visit `http://localhost:3000` in browser.
  - And you are done!
 ---
+
  - Run `yarn run-automate` to open without hot reloadinng enabled.
+ 
 ---
+
  - Server will run on port 3000. You can access same by visiting `http://localhost:3000` in browser.
+ 
 ---
