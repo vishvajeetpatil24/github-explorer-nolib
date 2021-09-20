@@ -8,7 +8,7 @@
  - And you are done!
 ---
 
- - Run `yarn run-automate:macos` to open without hot reloadinng enabled. (Opens web app on chrome automatically)
+ - Run `yarn run-automate:macos` to open without hot reloading enabled. (Opens web app on chrome automatically)
  
 ---
 
@@ -25,7 +25,7 @@
  - And you are done!
 ---
 
- - Run `yarn run-automate` to open without hot reloadinng enabled.
+ - Run `yarn run-automate` to open without hot reloading enabled.
  
 ---
 
