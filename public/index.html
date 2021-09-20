@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Navi Github Repo Search By Vishvajeet Patil</title>
+    <link rel="stylesheet" href="css/global.css">
+    <script data-main = "scripts/script" src = "scripts/require.js"></script>
+  </head>
+  <body>
+    <h2 style="width: auto; color: black; text-align: center;">Github Repo Search</h2>
+    <form onsubmit="(function() {require('script').searchRepo()})(); return false;">
+      <div class="searchBar common">
+        <input type="text" id="searchBar">
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="searchicon">
+          <path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path>
+        </svg>
+        <button onsubmit="(function() {require('script').searchRepo()})(); return false;" class="button">Search</button>
+        <button class="button" style="margin-left: 5px;" id="refresh-button" onclick="(function() {require('script').refreshHandler()})()">
+          Refresh
+        </button>
+      </div>
+    </form>
+    <div id="sortAndLangBar"></div>
+    <div id="response"></div>
+    <script>require(['script'], function (foo) {
+      require('script').init()
+    });</script>
+  </body>
+</html>

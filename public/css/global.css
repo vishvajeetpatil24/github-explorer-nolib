@@ -1,0 +1,188 @@
+.row {
+  box-sizing: border-box;
+  border-bottom: 1px solid hsla(210,18%,87%,1);
+  font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  line-height: 1.5;
+  color: #24292f;
+  list-style-type: none;
+  display: block !important;
+}
+
+#response {
+  position: relative;
+}
+
+.common {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.button {
+  border-radius: 8px;
+  width: 125px;
+  font-weight: bold;
+  box-shadow: 0 1px 0 rgb(27 31 36 / 4%), inset 0 1px 0 rgb(255 255 255 / 25%);
+  background-color: #f3f4f6;
+  border-color: #1b1f2426;
+  cursor: pointer;
+}
+
+.searchicon {
+  font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  position: absolute;
+  fill: currentColor;
+  left: 10px;
+  z-index: 5;
+  width: 16px;
+  height: 16px;
+  top: 8px;
+  color: #57606a;
+}
+
+#searchBar {
+  font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  line-height: 1.5;
+  color: #24292f;
+  box-sizing: border-box;
+  flex: auto !important;
+  margin-bottom: 0 !important;
+  margin-right: 4px !important;
+  position: relative;
+  --color-primer-shadow-inset: inset 0 1px 0 rgba(208,215,222,0.2);
+  font: inherit;
+  margin: 0;
+  overflow: visible;
+  font-family: inherit;
+  outline-offset: -2px;
+  padding: 5px 12px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #24292f;
+  vertical-align: middle;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  outline: none;
+  box-shadow: inset 0 1px 0 rgba(208,215,222,0.2);
+  width: 100% !important;
+  padding-left: 30px;
+}
+
+.language-color {
+  box-sizing: border-box;
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 1px solid rgba(27,31,36,0.1);
+  border-radius: 50%;
+  background-color: #4F5D95;
+}
+
+.secondary-info {
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+#repoUL {
+  position: absolute;
+  top: 50px;
+  border-radius: 10px;
+  border: 1px solid;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.star-icon {
+  vertical-align: middle;
+}
+
+.row-element {
+  display: inline-block;
+}
+
+.leftpositioned {
+  position: absolute;
+}
+
+.details {
+  cursor: pointer;
+  position: absolute;
+  margin-top: 20px;
+  font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  display: inline-block;
+  padding: 5px 16px;
+  font-size: 14px;
+  line-height: 20px;
+  border: 1px solid;
+  border-radius: 6px;
+  color: #24292f;
+  z-index: 100;
+  box-shadow: 0 1px 0 rgba(27,31,36,0.04),inset 0 1px 0 rgba(255,255,255,0.25);
+  background-color: #f3f4f6;
+  border-color: rgba(27,31,36,0.15);
+}
+
+.details > summary {
+  list-style: none;
+}
+
+.details[open] > summary {
+  padding-bottom: 5px;
+  border-bottom:  2px solid black;
+}
+
+.summary-menu-label {
+  user-select: none;
+  cursor: pointer;
+  display: block;
+  z-index: 10;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.dropdown-caret {
+  font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #24292f;
+  list-style: none;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: middle;
+  border-style: solid;
+  border-width: 4px 4px 0;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  margin-left: 4px;
+  opacity: .8;
+}
+
+#notFound {
+  font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+  padding: 50px;
+  background-color: #f08080;
+  border-radius: 27px;
+  box-sizing: border-box;
+  font-size: 20px;
+  border: 2px solid black;
+}
+
+:checked ~ span {
+  font-weight: bold;
+}
