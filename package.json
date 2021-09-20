@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "license": "MIT",
+  "author": {
+    "name": "Vishvajeet Subhash Patil",
+    "email": "vishvajeetpatil24@gmail.com"
+  },
   "scripts": {
     "build": "rimraf dist && tsc && cp -r public dist/ && cp src/scripts/*.js dist/scripts",
     "start:nowatch": "node dist/backend.js &",
