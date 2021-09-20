@@ -17,13 +17,13 @@
     "run-automate": "yarn build && yarn kill && yarn start:nowatch"
   },
   "dependencies": {
-    "@types/http-errors": "^1.8.1",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "isomorphic-fetch": "^3.0.0"
   },
   "devDependencies": {
+    "@types/http-errors": "^1.8.1",
     "@types/cors": "^2.8.12",
     "@types/express": "^4.17.13",
     "@types/isomorphic-fetch": "^0.0.35",
